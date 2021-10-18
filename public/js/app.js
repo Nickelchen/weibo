@@ -2055,7 +2055,10 @@ module.exports = {
 /***/ }),
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> filling-layout-style
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -2066,6 +2069,9 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 /***/ }),
 
+<<<<<<< HEAD
+>>>>>>> filling-layout-style
+=======
 >>>>>>> filling-layout-style
 /***/ "./resources/js/bootstrap.js":
 /*!***********************************!*\
@@ -2076,7 +2082,10 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> filling-layout-style
  * We'll load jQuery and the Bootstrap jQuery plugin which provides support
  * for JavaScript based Bootstrap features such as modals and tabs. This
  * code may be modified to fit the specific needs of your application.
@@ -2089,6 +2098,9 @@ try {
   __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
 } catch (e) {}
 /**
+<<<<<<< HEAD
+>>>>>>> filling-layout-style
+=======
 >>>>>>> filling-layout-style
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the
@@ -2096,6 +2108,10 @@ try {
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> filling-layout-style
 =======
 
 >>>>>>> filling-layout-style
@@ -2117,6 +2133,7 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 /***/ "./node_modules/lodash/lodash.js":
 /*!***************************************!*\
@@ -18923,6 +18940,8 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
     lodash.defaultTo = defaultTo;
     lodash.divide = divide;
 =======
+=======
+>>>>>>> filling-layout-style
 /***/ "./node_modules/bootstrap/dist/js/bootstrap.js":
 /*!*****************************************************!*\
   !*** ./node_modules/bootstrap/dist/js/bootstrap.js ***!
@@ -51060,6 +51079,9 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
     lodash.deburr = deburr;
     lodash.defaultTo = defaultTo;
     lodash.divide = divide;
+<<<<<<< HEAD
+>>>>>>> filling-layout-style
+=======
 >>>>>>> filling-layout-style
     lodash.endsWith = endsWith;
     lodash.eq = eq;
@@ -51197,6 +51219,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
     lodash.upperCase = upperCase;
     lodash.upperFirst = upperFirst;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     // Add aliases.
     lodash.each = forEach;
@@ -51467,6 +51490,8 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
   else {}
 }.call(this));
 =======
+=======
+>>>>>>> filling-layout-style
     // Add aliases.
     lodash.each = forEach;
     lodash.eachRight = forEachRight;
@@ -54379,6 +54404,9 @@ Popper.Defaults = Defaults;
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Popper);
 //# sourceMappingURL=popper.js.map
+<<<<<<< HEAD
+>>>>>>> filling-layout-style
+=======
 >>>>>>> filling-layout-style
 
 
@@ -54619,8 +54647,11 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 	}
 /******/ 	
 <<<<<<< HEAD
+<<<<<<< HEAD
 /************************************************************************/
 =======
+=======
+>>>>>>> filling-layout-style
 /******/ 	// expose the modules object (__webpack_modules__)
 /******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
@@ -54669,6 +54700,9 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		};
 /******/ 	})();
 /******/ 	
+<<<<<<< HEAD
+>>>>>>> filling-layout-style
+=======
 >>>>>>> filling-layout-style
 /******/ 	/* webpack/runtime/global */
 /******/ 	(() => {
@@ -54683,7 +54717,10 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 	})();
 /******/ 	
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> filling-layout-style
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -54700,6 +54737,9 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		};
 /******/ 	})();
 /******/ 	
+<<<<<<< HEAD
+>>>>>>> filling-layout-style
+=======
 >>>>>>> filling-layout-style
 /******/ 	/* webpack/runtime/node module decorator */
 /******/ 	(() => {
@@ -54710,6 +54750,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		};
 /******/ 	})();
 /******/ 	
+<<<<<<< HEAD
 <<<<<<< HEAD
 /************************************************************************/
 var __webpack_exports__ = {};
@@ -54722,6 +54763,8 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 })();
 
 =======
+=======
+>>>>>>> filling-layout-style
 /******/ 	/* webpack/runtime/jsonp chunk loading */
 /******/ 	(() => {
 /******/ 		// no baseURI
@@ -54785,6 +54828,9 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 /******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/sass/app.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
+<<<<<<< HEAD
+>>>>>>> filling-layout-style
+=======
 >>>>>>> filling-layout-style
 /******/ })()
 ;

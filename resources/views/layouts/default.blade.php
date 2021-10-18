@@ -3,6 +3,7 @@
 	<head>
 		<title>@yield('title', 'Weibo App') - Laravel 入门教程</title>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<link rel="stylesheet" href="{{mix('css/app.css')}}">
 	</head>
 	<body>
@@ -20,6 +21,8 @@
 			@yield('content')
 		</div>
 =======
+=======
+>>>>>>> filling-layout-style
 		<link rel="stylesheet" href="{{ mix('css/app.css') }}">
 	</head>
 	<body>
@@ -31,6 +34,9 @@
     @include('layouts._footer')
     </div>
     </div>
+<<<<<<< HEAD
+>>>>>>> filling-layout-style
+=======
 >>>>>>> filling-layout-style
 	</body>
 </html>
