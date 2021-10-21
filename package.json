@@ -15,15 +15,12 @@
         "jquery": "^3.6",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         "postcss": "^8.1.14",
         "resolve-url-loader": "4.0.0",
         "sass": "^1.43.2",
-        "sass-loader": "12.1.0"
-=======
-=======
->>>>>>> filling-layout-style
+        "sass-loader": "12.1.0",
+
         "popper.js": "^1.16.1",
         "postcss": "^8.1.14",
         "resolve-url-loader": "4.0.0",
@@ -32,9 +29,6 @@
     },
     "dependencies": {
         "cross-env": "^7.0.3"
-<<<<<<< HEAD
->>>>>>> filling-layout-style
-=======
->>>>>>> filling-layout-style
+
     }
 }
