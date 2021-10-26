@@ -9,11 +9,12 @@ use Auth;
 class SessionsController extends Controller
 {
     public function __construct(){
-        $this->middleware('auth', [
-            'except' => ['show', 'create', 'store', 'index']
-            ]);
-        $this->middleware('guest', [
-            'only' => ['create']
+        $this->middleware('guest', [ 
+            'only' => ['create'] 
+        ]); 
+        // 限流 10 分钟十次 
+        $this->middleware('throttle:10,10', [ 
+            'only' => ['store'] 
         ]);
     }
     public function index() { 

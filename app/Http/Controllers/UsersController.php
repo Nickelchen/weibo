@@ -16,6 +16,10 @@ class UsersController extends Controller
         $this->middleware('guest', [
             'only' => ['create']
         ]);
+        // 限流 一个小时内只能提交 10 次请求；
+        $this->middleware('throttle:10,60', [
+            'only' => ['store']
+        ]);
     }
     public function create(){
         return view('users/create');
@@ -77,14 +81,14 @@ class UsersController extends Controller
             $message->from($from, $name)->to($to)->subject($subject);
             });
     }
-    public function confirmEmail($token) { 
-        $user = User::where('activation_token', $token)->firstOrFail(); 
-        $user->activated = true; 
-        $user->activation_token = null; 
-        $user->save(); 
-        
-        Auth::login($user); 
-        session()->flash('success', '恭喜你，激活成功！'); 
-        return redirect()->route('users.show', [$user]); 
+    public function confirmEmail($token) {
+        $user = User::where('activation_token', $token)->firstOrFail();
+        $user->activated = true;
+        $user->activation_token = null;
+        $user->save();
+
+        Auth::login($user);
+        session()->flash('success', '恭喜你，激活成功！');
+        return redirect()->route('users.show', [$user]);
     }
 }
